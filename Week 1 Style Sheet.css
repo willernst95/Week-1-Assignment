@@ -12,7 +12,7 @@
     color: white;
     margin: auto;
     padding-top: 4px;
-    padding-bottom: 4px;
+    padding-bottom: 6px;
     
  }
 
@@ -30,13 +30,15 @@
 .footer {
     display: flex;  
     background-image: url("https://ny-petrescue.org/files/_cache/28514df6f91bde790e69ac2d9c6fa30b.jpg"); 
-    background-size: 100% 100%;
+    background-size: 100%;
     background-repeat: no-repeat;
     color: orange;
     text-align: center;  
-    align-items: flex-end;
     justify-content: center;
-    height: 75px
+    height: 75px;
+    line-height: 75px;
+    width: 100px;
+    bottom: 2px;
 }
 /* attempt 1 */
 .contactcontent {
@@ -66,4 +68,49 @@
     justify-content: center;
     background-color: black;
     color: white;
+}
+
+.itemlist {
+
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    color: white;
+    background-color: teal;
+    width: calc((15% - 2px));
+    float: left;
+    display: block;
+
+}
+
+.item-desc {
+
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    color: white;
+    background-color: violet;
+    width: calc((85% - 2px));
+    float: right;
+
+}
+
+.border {
+
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+.letsseesomething {
+
+    display: flex;
+    justify-content: space-around;
+}
+
+.item1 {
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 
+    
 }
